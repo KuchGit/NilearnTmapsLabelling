@@ -1,4 +1,4 @@
-# nilearn-aal-viewer
+# NilearnTmapsLabelling
 
 > **Interactive brain activation viewer with AAL3 anatomical labeling**  
 > Click any voxel → get the region name and MNI coordinates instantly.  
