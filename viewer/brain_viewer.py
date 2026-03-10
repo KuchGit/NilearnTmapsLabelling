@@ -67,13 +67,15 @@ _BADGE_CSS = """
 /* ── AAL region badge ── */
 #aal-badge {
   position: fixed;
-  top: 36px; left: 0; right: 0;
+  top: 36px; left: 0;
   display: none;
   padding: 5px 20px;
   background: rgba(10, 20, 50, 0.82);
-  border-bottom: 1px solid rgba(121,134,203,0.25);
+  border: 1px solid rgba(121,134,203,0.25);
+  border-radius: 0 4px 4px 0;
   font-family: 'Helvetica Neue', Arial, sans-serif;
   z-index: 99997;
+  white-space: nowrap;
 }
 #aal-badge .aal-region {
   color: #9fa8da;
